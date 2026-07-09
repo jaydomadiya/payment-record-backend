@@ -1,0 +1,2 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.payment_record_be.config.RequiredEnvironmentValidator
