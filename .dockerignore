@@ -1,0 +1,24 @@
+# VCS / IDE / editor
+**/.git
+**/.gitignore
+**/.gitattributes
+**/.idea
+**/.vscode
+**/*.iml
+
+# Build output — regenerated inside the image
+target/
+
+# Docs (not needed at runtime)
+HELP.md
+*.md
+
+# Local secrets — must never be baked into the image
+**/application-local.properties
+**/.env
+
+# OS cruft
+**/.DS_Store
+
+# Windows-only wrapper script, unused in the Linux build stage
+mvnw.cmd
